@@ -1,0 +1,490 @@
+:root {
+ --Pink: hsl(322, 100%, 66%);
+--Light-Pink: hsl(321, 100%, 78%);
+--Light-Red: hsl(0, 100%, 63%);
+--Very-Dark-Cyan: hsl(192, 100%, 9%);
+--Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container header {
+    margin: 1rem 0 6rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container header img {
+    width: 35%;
+}
+
+.container header a button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 100px;
+    border: 2px solid var(--Pink);
+    color: var(--Pink);
+    background: transparent;
+    padding: 4px 10px;
+    font-size: 0.7rem;
+}
+
+.container header a button:hover {
+    cursor: pointer;
+    color: var(--Light-Pink);
+    border: 2px solid var(--Light-Pink);
+}
+
+.container .first {
+    text-align: center;
+}
+
+.container .first h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--Very-Dark-Cyan);
+}
+
+.container .first p {
+    padding: 1rem 1.5rem;
+    line-height: 1.2rem;;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--Very-Dark-Cyan);
+}
+
+.container .first a button {
+    background: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    border-radius: 100px;
+    margin: 2rem;
+}
+
+.container .first a button:hover {
+    cursor: pointer;
+    background-color: var(--Light-Pink);
+    transition: 0.3s;
+}
+
+.container .first img {
+    width: 85%;
+    margin-top: 2rem;
+}
+
+.container .second {
+    text-align: center;
+}
+
+
+.container .second .oneup {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.container .second .onelow {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.container .second section img {
+    margin-right: 8rem;
+    width: 35px;
+
+}
+
+.container .second section h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.container .second section p {
+    color: hsl(0, 2%, 56%);
+    margin-top: 5px;
+}
+
+.container .second .onelow p {
+    margin-inline: 9rem;
+}
+
+.container .bgblue {
+    background-color: var(--Very-Pale-Blue);
+    border: none;
+    margin-top: -5px;
+}
+
+.container picture img {
+    width: 100%;
+}
+
+.container .grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.container .third .firstig {
+    grid-row: 1 / 2;
+}
+
+.container .fifth .secondig {
+    grid-row: 1 / 2;
+}
+
+.container .grid img {
+    width: 100%;
+    padding: 3rem;
+}
+
+.container .grid .firsttx {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+.container .grid section h2 {
+    color: var(--Very-Dark-Cyan);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.container .grid section p {
+    color: var(--Very-Dark-Cyan);
+    font-weight: 400;
+    padding-top: 1.5rem;
+    padding-inline: 1.9rem;
+    padding-bottom: 6rem;
+}
+
+.container .bottom img {
+    padding-bottom: 3rem;
+}
+
+
+.container .sixth {
+    text-align: center;
+}
+
+.container .sixth h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin-inline: 1rem;
+    line-height: 2rem;
+}
+
+.container .sixth a button {
+    border: none;
+    background: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    font-weight: 600;
+    padding: 0.8rem 2rem;
+    border-radius: 100px;
+    margin: 2rem;
+}
+
+.container .sixth a button:hover {
+    cursor: pointer;
+    background-color: var(--Light-Pink);
+    transition: 0.3s;
+}
+
+.container .footerbg img {
+    margin-top: 15rem;
+    margin-bottom: -2px;
+}
+
+.container .seventh {
+    background: var(--Very-Dark-Cyan);
+    margin-top: -2px;
+    color: #fff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 1.5rem;
+}
+
+.container .seventh .secone {
+    grid-row: 2 / 2;
+    padding-top: 6rem;
+}
+
+.container .seventh .sectwo {
+    padding-top: 2rem;   
+}
+
+.container .seventh .sectwo h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.container .seventh .sectwo form {
+    padding-top: 2rem;
+    text-align: right;
+}
+
+.container .seventh .sectwo form input {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 1rem;
+}
+
+.container .seventh .sectwo form input:hover {
+    cursor: pointer;
+}
+
+.container .seventh .sectwo form button {
+    background: var(--Pink);
+    color: var(--Very-Pale-Blue);
+    font-weight: 600;
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    margin-top: 0.9rem;
+}
+
+.container .seventh .sectwo form button:hover {
+    background-color: var(--Light-Pink);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.container .seventh section p {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    padding: 1rem 0;
+}
+
+.container .seventh .secone ul {
+    list-style: none;
+}
+
+.container .seventh .secone ul li {
+    padding: 0.9rem 0;
+}
+
+.container .eighth {
+    background-color: var(--Very-Dark-Cyan);
+}
+
+.container .eighth ul {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+.container .eighth ul li {
+    display: inline;  
+    padding-right: 15px;
+}
+
+.container .eighth ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .eighth ul li i {
+    font-size: 2rem;
+}
+
+.container .eighth ul li a:hover {
+    color: hsl(228, 59%, 51%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width:650px) {
+    .container {
+        width: 100%;
+    }
+
+    .container header {
+        margin: 2rem 4rem 15rem 4rem;
+    }
+
+    .container header img {
+        width: 15%;
+    }
+    
+    .container header a button {
+        padding: 10px 35px;
+        font-size: 0.8rem;
+    }
+
+    .container .first h1 {
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
+
+    .container .first p {
+        padding: 1rem 0;
+        margin-inline: 25rem;
+        line-height: 2rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .container .first a button {
+        padding: 1.5rem 6rem;
+        margin: 2rem;
+        font-size: 1.2rem;
+        box-shadow: 2px 2px 4px rgb(230, 223, 223);
+        border: none;
+    }
+
+    .container .first img {
+        width: 75%;
+        margin-top: 3rem;
+    }
+
+    .container .second {
+        display: flex;
+        justify-content: space-around;
+        padding: 6rem 0;
+    }
+    
+    .container .second .oneup {
+        padding: 0;
+    }
+    
+    .container .second .onelow {
+        padding: 0;
+    }
+
+    .container .grid section {
+        padding: 2rem;
+    }
+    .container .grid .firsttx {
+        text-align: left;
+    }
+
+    .container .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-inline: 3rem;
+
+    }
+
+    .container .third .firstig {
+        grid-column: 2 / 2;
+    }
+
+    .container .fifth .secondig {
+        grid-column: 2 / 2;
+    }
+
+    .container .grid .firsttx {
+        margin: auto;
+        padding-inline: 3rem;
+        margin-inline: 4rem;
+    }
+
+    .container .grid .firsttx h2 {
+        font-weight: 800;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .container .grid .firsttx p {
+        font-weight: 400;
+        padding: 0;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        margin-bottom: 3rem;
+        
+    }
+
+    
+    .container .sixth h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-inline: 1rem;
+        line-height: 2rem;
+    }
+    
+    .container .sixth a button {
+        padding: 1rem 4rem;
+    }
+
+
+    .container .seventh {
+        display: flex;
+        justify-content:space-between;
+        padding: 0;
+        padding-top: 3rem;
+    }
+    
+    .container .seventh .secone {
+        padding:unset;
+        margin: 1rem 10rem;
+    }
+    
+    
+    
+    .container .seventh .sectwo form {
+        padding-top: 0;
+        text-align: left;
+        display: inline;
+    }
+    
+    .container .seventh .sectwo form input {
+        display: inline;
+        margin-right: 2.5rem;
+        width: 50%;
+
+    }
+    
+    .container .seventh .sectwo form button {
+        padding: 0.9rem 3rem;
+
+    }
+    
+    .container .seventh section p {
+        padding: 1rem 0;
+        margin-right: 15rem;
+    }
+    
+
+    .container .eighth ul {
+        padding: 1.5rem;
+        padding-left: 10rem;
+    }
+
+    
+ 
+}
